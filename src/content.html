@@ -50,6 +50,9 @@
                 <span class="tooltip">Termo</span>
             </li>
         </ul>
+        <div class="logout">
+            <ion-icon onclick="showPopup(redirectToLogin)" name="log-out-outline" id="forgout"></ion-icon>
+        </div>
     </header>
 
     <!-- Conteúdo -->
@@ -59,7 +62,7 @@
             <section class="content">
                 <!-- Acessos -->
                 <div id="acessos-content" class="main-content acessos">
-                    <div class="content-acessos">
+                    <div>
                         <h1>Acessos</h1>
                         <div class="input-acessos">
                             <input type="text" required>
@@ -107,7 +110,7 @@
                                 <option value="Leonardo">Leonardo</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn">Botão</button>
+                        <button type="submit" class="btn">Gerar Etiqueta</button>
 
                         <footer class="rodape">
                             <p>Copyright &copy; 2023 - MULTITECH | Todos os direitos reservados.</p>
@@ -133,6 +136,11 @@
                     </div>
                 </div>
             </section>
+        </div>
+
+        <!-- Logout PopUp -->
+        <div class="popup" id="popup" onclick="hidePopup()">
+            Você foi desconectado. <br> Redirecionando para a página de login...
         </div>
     </main>
 

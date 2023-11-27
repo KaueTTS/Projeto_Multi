@@ -18,3 +18,19 @@ function openContent(id) {
 
     content.style.display = "grid"
 }
+
+// Forgout
+function showPopup(redirectFunc) {
+    document.getElementById("popup").style.display = "block"
+    setTimeout(function() {
+        redirectFunc()
+    }, 3000) // redireciona após 2 segundos
+}
+
+function hidePopup() {
+    document.getElementById("popup").style.display = "none"
+}
+
+function redirectToLogin() {
+    window.location.href = "../index.html"
+}

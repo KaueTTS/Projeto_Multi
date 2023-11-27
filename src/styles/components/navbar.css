@@ -141,3 +141,15 @@
 .sidebar.active ul li .tooltip {
     display: none;
 }
+
+.sidebar #forgout {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    bottom: 1.2rem;
+    left: 50%;
+    line-height: 50px;
+    transform: translateX(-50%);
+}

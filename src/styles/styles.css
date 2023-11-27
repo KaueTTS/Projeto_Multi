@@ -3,6 +3,7 @@
 @import url(./components/acessos.css);
 @import url(./components/etiquetas.css);
 @import url(./components/termo.css);
+@import url(./forgout.css);
 
 :root {
     --main-color: rgb(0, 81, 219);
