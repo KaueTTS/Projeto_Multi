@@ -8,6 +8,7 @@
 :root {
     --main-color: rgb(0, 81, 219);
     --second-color: rgb(60, 20, 80);
+    --input-color: rgb(0, 51, 139);
 }
 
 * {

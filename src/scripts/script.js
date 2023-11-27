@@ -34,3 +34,19 @@ function hidePopup() {
 function redirectToLogin() {
     window.location.href = "../index.html"
 }
+
+// Input-acessos
+function gerarArquivo() {
+    let limparUser = document.getElementById("clearUser").value
+    let limparPassword = document.getElementById("clearPassword").value
+
+    function clearInput() {
+        clearUser = document.querySelector("#clearUser")
+        clearPassword = document.querySelector("#clearPassword")
+
+        clearUser.value = ''    
+        clearPassword.value = ''      
+    }
+
+    clearInput()
+}

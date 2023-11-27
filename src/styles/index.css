@@ -1,0 +1,26 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: absolute;
+    width: 22em;
+    height: 22em;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: static;
+    background: #ffffff url(../images/backgroundMulti.png) center center/cover no-repeat;
+    filter: blur(3px);
+    z-index: -1;
+}

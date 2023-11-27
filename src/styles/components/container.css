@@ -59,7 +59,7 @@ h1 {
 }
 
 .btn:hover {
-    background: rgb(0, 76, 205);
+    background: var(--input-color);
 }
 
 .btn:active {

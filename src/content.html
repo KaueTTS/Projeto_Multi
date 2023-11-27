@@ -65,18 +65,18 @@
                     <div>
                         <h1>Acessos</h1>
                         <div class="input-acessos">
-                            <input type="text" required>
+                            <input type="text" required id="clearUser">
                             <label>Usuário</label>
                         </div>
                         <div class="input-acessos">
-                            <input type="text" required>
+                            <input type="text" required id="clearPassword">
                             <label>Senha</label>
                         </div>
                         <div class="forgot-acessos">
-                            <input type="checkbox" required>
+                            <input type="checkbox" id="clearCheckbox">
                             <label>Gerar Mercury</label>
                         </div>
-                        <button type="submit" class="btn">Gerar Arquivo</button>
+                        <button type="submit" class="btn" onclick="gerarArquivo()">Gerar Arquivo</button>
 
                         <footer class="rodape">
                             <p>Copyright &copy; 2023 - MULTITECH | Todos os direitos reservados.</p>
@@ -102,6 +102,8 @@
                                 <option value="PIPE">PIPE</option>
                                 <option value="CORREIOS">CORREIOS</option>
                             </select>
+                        </div>
+                        <div class="input-etiquetas">
                             <select name="analista" id="analista">
                                 <option value="#"></option>
                                 <option value="Fred">Fred</option>
