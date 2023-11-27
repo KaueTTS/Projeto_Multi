@@ -1,0 +1,20 @@
+@import url(./components/navbar.css);
+@import url(./components/container.css);
+@import url(./components/acessos.css);
+@import url(./components/etiquetas.css);
+@import url(./components/termo.css);
+
+:root {
+    --main-color: rgb(0, 81, 219);
+    --second-color: rgb(60, 20, 80);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}

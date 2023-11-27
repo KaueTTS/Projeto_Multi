@@ -1,0 +1,66 @@
+.main {
+    position: relative;
+    min-height: 100vh;
+    top: 0;
+    left: 80px;
+    transition: all 0.5s ease;
+    width: calc(100% - 80px);
+}
+
+.logo_tech {
+    position: absolute;
+    width: 18rem;
+    margin: 5px 0 0 20px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.content {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    max-width: 60%;
+    padding: 2rem;
+    border: 2px solid var(--main-color);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: rgb(0, 76, 205);
+}
+
+.btn:active {
+    background: var(--second-color);
+}
+
+.rodape{
+    color: #000;
+    font-size: 0.6em;
+    margin-top: 20px;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Multi - MultiTech</title>
+</head>
+<body>
+    <!-- Sidebar -->
+    <header class="sidebar">
+        <nav class="top">
+            <div class="logo">
+                <img src="./images/multi.png" alt="Logo da Multi" class="logo_img">
+            </div>
+            <ion-icon name="menu" id="btn"></ion-icon>
+        </nav>
+        <div class="user">
+            <img src="./images/user_logo.png" alt="Foto do usuário" class="user-img">
+            <div>
+                <p class="bold">Nome Completo</p>
+                <p>Cargo</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a onclick="openContent('acessos')" href="#">
+                    <ion-icon name="lock-closed" class="lock icon"></ion-icon>
+                    <span class="nav-item">Acessos</span>
+                </a>
+                <span class="tooltip">Acessos</span>
+            </li>
+            <li>
+                <a onclick="openContent('etiquetas')" href="#">
+                    <ion-icon name="pricetags" class="tag icon"></ion-icon>
+                    <span class="nav-item">Etiquetas</span>
+                </a>
+                <span class="tooltip">Etiquetas</span>
+            </li>
+            <li>
+                <a onclick="openContent('termo')" href="#">
+                    <ion-icon name="document-text" class="document icon"></ion-icon>
+                    <span class="nav-item">Termo</span>
+                </a>
+                <span class="tooltip">Termo</span>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Conteúdo -->
+    <main class="main">
+        <div class="container">
+            <img src="./images/mutitech.png" alt="Logo da MultiTech" class="logo_tech">
+            <section class="content">
+                <!-- Acessos -->
+                <div id="acessos-content" class="main-content acessos">
+                    <div class="content-acessos">
+                        <h1>Acessos</h1>
+                        <div class="input-acessos">
+                            <input type="text" required>
+                            <label>Usuário</label>
+                        </div>
+                        <div class="input-acessos">
+                            <input type="text" required>
+                            <label>Senha</label>
+                        </div>
+                        <div class="forgot-acessos">
+                            <input type="checkbox" required>
+                            <label>Gerar Mercury</label>
+                        </div>
+                        <button type="submit" class="btn">Gerar Arquivo</button>
+
+                        <footer class="rodape">
+                            <p>Copyright &copy; 2023 - MULTITECH | Todos os direitos reservados.</p>
+                        </footer>
+                    </div>
+
+                    <div class="etapas-acessos">
+                        <p>O Gerador de acessos serve para gerar novos panfletos aos colaboradores que estão iniciando sua jornada no Grupo Multi. <br> Ao gerar um arquivo, um panfleto vai ser impresso com as informações que você digitou!</p>
+                    </div>
+                </div>
+
+                <!-- Etiquetas -->
+                <div id="etiquetas-content" class="main-content etiquetas">
+                    <div class="content-acessos">
+                        <h1>Etiquetas</h1>
+                        <div class="input-acessos">
+                            <select name="etiquetas" id="etiquetas">
+                                <option value="#"></option>
+                                <option value="A/C">A/C</option>
+                                <option value="CHAMADO">CHAMADO</option>
+                                <option value="CHIP">CHIP</option>
+                                <option value="LACRE">LACRE</option>
+                                <option value="PIPE">PIPE</option>
+                                <option value="CORREIOS">CORREIOS</option>
+                            </select>
+                            <select name="analista" id="analista">
+                                <option value="#"></option>
+                                <option value="Fred">Fred</option>
+                                <option value="Guilherme">Guilherme</option>
+                                <option value="Kauê">Kauê</option>
+                                <option value="Leonardo">Leonardo</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Botão</button>
+
+                        <footer class="rodape">
+                            <p>Copyright &copy; 2023 - MULTITECH | Todos os direitos reservados.</p>
+                        </footer>
+                    </div>
+                    <div class="etapas-acessos">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam soluta in eaque at facere unde, quidem deserunt nobis, illum deleniti quia veritatis consequuntur maiores dolor mollitia itaque adipisci repellendus exercitationem?</p>
+                    </div>
+                </div>
+
+                <!-- Termo -->
+                <div id="termo-content" class="main-content termos">
+                    <div class="content-acessos">
+                        <h1>Título</h1>
+                        <div class="input-acessos">
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                        <button type="submit" class="btn">Botão</button>
+                    </div>
+                    <div class="etapas-acessos">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
