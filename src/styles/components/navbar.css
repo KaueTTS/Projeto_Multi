@@ -100,7 +100,7 @@
 
 .sidebar ul li a:hover {
     background-color: #fff;
-    color: #12171e;
+    color: var(--second-color);
 }
 
 .sidebar ul li a ion-icon {
@@ -152,4 +152,8 @@
     left: 50%;
     line-height: 50px;
     transform: translateX(-50%);
+}
+
+#forgout:hover {
+    color: var(--second-color);
 }
