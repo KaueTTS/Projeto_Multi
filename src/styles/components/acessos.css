@@ -2,13 +2,6 @@
     display: grid;
 }
 
-.content-acessos h1 {
-    font-size: 1.6em;
-    color: var(--main-color);
-    text-align: center;
-    font-weight: 600;
-}
-
 .input-acessos {
     position: relative;
     width: 100%;
@@ -58,9 +51,4 @@
     accent-color: var(--main-color);
     margin-right: 3px;
     height: 13px;
-}
-
-.etapas-acessos {
-    font-size: 20px;
-    line-height: 1.6rem;
 }
