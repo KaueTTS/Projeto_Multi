@@ -21,6 +21,6 @@
     height: 100vh;
     position: static;
     background: #ffffff url(../images/backgroundMulti.png) center center/cover no-repeat;
-    filter: blur(3px);
+    filter: blur(4px);
     z-index: -1;
 }
