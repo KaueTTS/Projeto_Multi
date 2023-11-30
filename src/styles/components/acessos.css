@@ -1,0 +1,48 @@
+.passBox {
+    width: 100%;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-bottom: 2px solid var(--main-color);
+    font-size: 18px;
+    margin-block: 12px;
+    color: var(--main-color);
+    font-weight: 600;
+} 
+
+.inputLength {
+    display: flex;
+    gap: 0.8em;
+    justify-content: center;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.inputLength input {
+    width: calc(100% - 162px);
+}
+
+.inputLength span {
+    font-weight: 600;
+    margin-left: -10px;
+}
+
+.inputCheck {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--main-color);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.inputCheck span {
+    font-weight: 600;
+}
+
+.inputCheck input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}

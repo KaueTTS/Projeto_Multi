@@ -99,7 +99,7 @@
 
                 <!-- Etiquetas -->
                 <div id="etiquetas-content" class="main-content etiquetas">
-                    <div class="content-etiquetas">
+                    <div>
                         <h1>Etiquetas</h1>
                         <div class="input-etiquetas">
                             <select name="etiquetas" id="etiquetas">
@@ -134,7 +134,7 @@
 
                 <!-- Termo -->
                 <div id="termo-content" class="main-content termos">
-                    <div class="content-acessos">
+                    <div>
                         <h1>Termo</h1>
 
                         <button type="submit" class="btn">Botão</button>
@@ -148,7 +148,35 @@
                 <div id="acessos-content" class="main-content acessos">
                     <div class="content-acessos">
                         <h1>Acessos</h1>
-                        <button type="submit" class="btn">Botão</button>
+
+                        <div class="inputPassword">
+                            <input type="text" class="passBox" id="pass" disabled>
+                        </div>
+
+                        <div class="inputLength">
+                            <input type="range" min="1" max="10" value="8" id="inputSlider">
+                            <p>Password Length:</p>
+                            <span id="sliderValue">8</span>
+                        </div>
+
+                        <div class="inputCheck">
+                            <label for="lowercase">Caracteres minúsculos <span>(a - z)</span></label>
+                            <input type="checkbox" name="lowercase" id="lowercase" checked>
+                        </div>
+                        <div class="inputCheck">
+                            <label for="lowercase">Caracteres maiúsculos <span>(A - Z)</span></label>
+                            <input type="checkbox" name="lowercase" id="lowercase" checked>
+                        </div>
+                        <div class="inputCheck">
+                            <label for="lowercase">Números <span>(0 - 9)</span></label>
+                            <input type="checkbox" name="lowercase" id="lowercase" checked>
+                        </div>
+                        <div class="inputCheck">
+                            <label for="lowercase">Caracters Especiais <span>(!@#$%&*)</span></label>
+                            <input type="checkbox" name="lowercase" id="lowercase" checked>
+                        </div>
+
+                        <button type="submit" class="btn">Gerar Senha</button>
                     </div>
                     <div class="etapas">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci laboriosam magni, ipsum quam aperiam eaque sapiente exercitationem voluptates inventore. Quos harum dicta maxime, sunt adipisci aut cum dolor delectus.</p>
