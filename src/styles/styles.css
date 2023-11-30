@@ -1,8 +1,9 @@
 @import url(./components/navbar.css);
 @import url(./components/container.css);
-@import url(./components/acessos.css);
+@import url(./components/panfleto.css);
 @import url(./components/etiquetas.css);
 @import url(./components/termo.css);
+@import url(./components/acessos.css);
 @import url(./forgout.css);
 
 :root {

@@ -35,7 +35,7 @@ function redirectToLogin() {
     window.location.href = "../index.html"
 }
 
-// Input-acessos
+// Input-panfletos
 function gerarArquivo() {
     let limparUser = document.getElementById("clearUser").value
     let limparPassword = document.getElementById("clearPassword").value

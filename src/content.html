@@ -27,13 +27,14 @@
                 <p>Cargo</p>
             </div>
         </div>
+        <!-- Icons -->
         <ul>
             <li>
-                <a onclick="openContent('acessos')" href="#">
-                    <ion-icon name="lock-closed" class="lock icon"></ion-icon>
-                    <span class="nav-item">Acessos</span>
+                <a onclick="openContent('panfletos')" href="#">
+                    <ion-icon name="mail-open-outline" class="panfleto icon "></ion-icon>
+                    <span class="nav-item">Panfletos</span>
                 </a>
-                <span class="tooltip">Acessos</span>
+                <span class="tooltip">Panfletos</span>
             </li>
             <li>
                 <a onclick="openContent('etiquetas')" href="#">
@@ -49,6 +50,13 @@
                 </a>
                 <span class="tooltip">Termo</span>
             </li>
+            <li>
+                <a onclick="openContent('acessos')" href="#">
+                    <ion-icon name="lock-closed" class="lock icon"></ion-icon>
+                    <span class="nav-item">Acessos</span>
+                </a>
+                <span class="tooltip">Acessos</span>
+            </li>
         </ul>
         <div class="logout">
             <ion-icon onclick="showPopup(redirectToLogin)" name="log-out-outline" id="forgout"></ion-icon>
@@ -60,19 +68,20 @@
         <div class="container">
             <img src="./images/mutitech.png" alt="Logo da MultiTech" class="logo_tech">
             <section class="content">
-                <!-- Acessos -->
-                <div id="acessos-content" class="main-content acessos">
+
+                <!-- Panfletos -->
+                <div id="panfletos-content" class="main-content panfletos">
                     <div>
-                        <h1>Acessos</h1>
-                        <div class="input-acessos">
+                        <h1>Panfletos</h1>
+                        <div class="input-text">
                             <input type="text" required id="clearUser">
                             <label>Usuário</label>
                         </div>
-                        <div class="input-acessos">
+                        <div class="input-text">
                             <input type="text" required id="clearPassword">
                             <label>Senha</label>
                         </div>
-                        <div class="forgot-acessos">
+                        <div class="checkbox-mercury">
                             <input type="checkbox" id="clearCheckbox">
                             <label>Gerar Mercury</label>
                         </div>
@@ -84,7 +93,7 @@
                     </div>
 
                     <div class="etapas">
-                        <p>O Gerador de acessos serve para gerar novos panfletos aos colaboradores que estão iniciando sua jornada no Grupo Multi. <br> Ao gerar um arquivo, um panfleto vai ser impresso com as informações que você digitou!</p>
+                        <p>O Gerador de panfletos serve para gerar novos panfletos aos colaboradores que estão iniciando sua jornada no Grupo Multi. <br> Ao gerar um arquivo, um panfleto vai ser impresso com as informações que você digitou!</p>
                     </div>
                 </div>
 
@@ -126,15 +135,23 @@
                 <!-- Termo -->
                 <div id="termo-content" class="main-content termos">
                     <div class="content-acessos">
-                        <h1>Título</h1>
-                        <div class="input-acessos">
-                            <input type="text">
-                            <input type="text">
-                        </div>
+                        <h1>Termo</h1>
+
                         <button type="submit" class="btn">Botão</button>
                     </div>
                     <div class="etapas">
-                        <p></p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci laboriosam magni, ipsum quam aperiam eaque sapiente exercitationem voluptates inventore. Quos harum dicta maxime, sunt adipisci aut cum dolor delectus.</p>
+                    </div>
+                </div>
+
+                <!-- Acessos -->
+                <div id="acessos-content" class="main-content acessos">
+                    <div class="content-acessos">
+                        <h1>Acessos</h1>
+                        <button type="submit" class="btn">Botão</button>
+                    </div>
+                    <div class="etapas">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci laboriosam magni, ipsum quam aperiam eaque sapiente exercitationem voluptates inventore. Quos harum dicta maxime, sunt adipisci aut cum dolor delectus.</p>
                     </div>
                 </div>
             </section>

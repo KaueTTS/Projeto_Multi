@@ -75,4 +75,6 @@ h1 {
 .etapas {
     font-size: 20px;
     line-height: 1.6rem;
+    color: var(--main-color);
+    font-weight: 600;
 }
