@@ -1,3 +1,20 @@
+.inputPassword {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputPassword ion-icon {
+    position: absolute;
+    align-self: flex-end;
+    bottom: 20px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    color: var(--main-color);
+}
+
 .passBox {
     width: 100%;
     background-color: #fff;
