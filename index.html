@@ -13,14 +13,25 @@
 <body>    
     <main class="container">
         <div class="content">
-            <h1>Login | Multitech</h1>
-            <div>
-                <input type="text">
-                <input type="text">
+            <div class="form-box login">
+                <h2>Conecte-se</h2>
+                <form action="#">
+                    <div class="login-input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+    
+                    <div class="login-input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+    
+                    <button type="submit" class="btn">Conectar</button>
+                </form>
             </div>
-            <button></button>
         </div>
-        <div class="background"></div>
     </main>
 </body>
 </html>
