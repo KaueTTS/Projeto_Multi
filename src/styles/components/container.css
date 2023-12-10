@@ -78,3 +78,26 @@ h1 {
     color: var(--main-color);
     font-weight: 600;
 }
+
+.input-text label {
+    position: absolute;
+    top: 60%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: var(--main-color);
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-text ion-icon {
+    position: absolute;
+    align-self: flex-end;
+    bottom: 10px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    color: var(--main-color);
+}

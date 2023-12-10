@@ -1,7 +1,8 @@
 .user-img {
-    width: 50px;
+    width: 45px;
     border-radius: 100%;
     border: 1px solid #000;
+    margin-left: 4px;
 }
 
 .logo_img {
@@ -60,7 +61,7 @@
 .user {
     display: flex;
     align-items: center;
-    margin: 2.2rem 0;
+    margin: 2rem 0;
 }
 
 .user p {
