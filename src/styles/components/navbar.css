@@ -85,7 +85,7 @@
 .sidebar ul li {
     position: relative;
     list-style-type: none;
-    height: 48px;
+    height: 44px;
     width: 80%;
     margin: 0.8rem auto;
     line-height: 40px;
@@ -106,9 +106,9 @@
 
 .sidebar ul li a ion-icon {
     text-align: center;
-    min-width: 30px;
-    height: 30px;
-    margin-left: 6.5px;
+    min-width: 28px;
+    height: 28px;
+    margin-left: 7.5px;
     border-radius: 12px;
     line-height: 50px;
 }
