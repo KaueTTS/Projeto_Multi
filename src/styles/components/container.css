@@ -9,7 +9,7 @@
 
 .logo_tech {
     position: absolute;
-    width: 18rem;
+    width: 16rem;
     margin: 5px 0 0 20px;
 }
 
@@ -28,11 +28,11 @@
 .main-content {
     display: none;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1.8rem;
     text-align: center;
     align-items: center;
-    max-width: 60%;
-    padding: 2rem;
+    max-width: 75%;
+    padding: 1.8rem;
     border: 2px solid var(--main-color);
     border-radius: 12px;
     box-shadow: var(--second-color) 0px 5px 15px;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .etapas {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6rem;
     color: var(--main-color);
     font-weight: 600;
