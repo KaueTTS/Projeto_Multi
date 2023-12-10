@@ -76,12 +76,14 @@
                         <div class="input-text">
                             <input type="text" required id="clearUser">
                             <label>Usuário</label>
+                            <ion-icon name="copy-outline"></ion-icon>
                         </div>
                         <div class="input-text">
                             <input type="text" required id="clearPassword">
                             <label>Senha</label>
+                            <ion-icon name="copy-outline"></ion-icon>
                         </div>
-                        <div class="checkbox-mercury">
+                        <div class="checkbox">
                             <input type="checkbox" id="clearCheckbox">
                             <label>Gerar Mercury</label>
                         </div>
@@ -134,13 +136,75 @@
 
                 <!-- Termo -->
                 <div id="termo-content" class="main-content termos">
-                    <div>
-                        <h1>Termo</h1>
+                    <div class="columns">
+                        <h1 class="title">Termos</h1>
 
-                        <button type="submit" class="btn">Botão</button>
+                        <!-- Col-1 -->
+                        <div class="termos">
+                            <div class="input-text cols">
+                                <input type="text" required id="clearUser">
+                                <label>Nome Completo</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+                            <div class="input-text cols">
+                                <input type="text" required id="clearUser">
+                                <label>Usuário</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+                            <div class="input-text cols">
+                                <input type="text" required id="clearUser">
+                                <label>E-mail</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+
+                            <button type="submit" class="btn">Limpar Campos</button>
+                        </div>
+
+                        <!-- Col-2 -->
+                        <div class="termos">
+                            <div class="input-text cols col-2">
+                                <input type="text" required id="clearUser">
+                                <label>CPF</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+                            <div class="input-text cols">
+                                <input type="text" required id="clearUser">
+                                <label>Chamado</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+                            <div class="input-text cols">
+                                <input type="text" required disabled id="clearUser">
+                                <label>Valor</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+
+                            <button type="submit" class="btn">Exportar</button>
+                        </div>
+
+                        <!-- Col-3 -->
+                        <div class="termos">
+                            <div class="input-text cols">
+                                <input type="text" required id="clearUser">
+                                <label>Departamento</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+                            <div class="input-text cols">
+                                <input type="text" required id="clearUser">
+                                <label>Modelo Antigo</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+                            <div class="input-text cols">
+                                <input type="text" required id="clearUser">
+                                <label>Modelo Novo</label>
+                                <ion-icon name="copy-outline"></ion-icon>
+                            </div>
+
+                            <button type="submit" class="btn">Copiar</button>
+                        </div>
                     </div>
+
                     <div class="etapas">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci laboriosam magni, ipsum quam aperiam eaque sapiente exercitationem voluptates inventore. Quos harum dicta maxime, sunt adipisci aut cum dolor delectus.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam soluta in eaque at facere unde, quidem deserunt nobis, illum deleniti quia veritatis consequuntur maiores dolor mollitia itaque adipisci repellendus exercitationem?</p>
                     </div>
                 </div>
 
@@ -182,6 +246,10 @@
                     <div class="etapas">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci laboriosam magni, ipsum quam aperiam eaque sapiente exercitationem voluptates inventore. Quos harum dicta maxime, sunt adipisci aut cum dolor delectus.</p>
                     </div>
+
+                    <footer class="rodape">
+                        <p>Copyright &copy; 2023 - MULTITECH | Todos os direitos reservados.</p>
+                    </footer>
                 </div>
             </section>
         </div>

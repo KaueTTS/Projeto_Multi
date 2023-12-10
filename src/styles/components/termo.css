@@ -1,0 +1,23 @@
+.main-content~.termos{
+    gap: 3em;
+    max-width: 80%;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.columns .termos .input-text {
+    width: 100%;
+}
+
+.termos {
+    margin: 20px 0 0 0;
+}
+
+.termos .title {
+    position: absolute;
+    left: 27.2%;
+}

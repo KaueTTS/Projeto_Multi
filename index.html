@@ -16,20 +16,27 @@
             <div class="form-box login">
                 <h2>Conecte-se</h2>
                 <form action="#">
-                    <div class="login-input-box">
-                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                        <input type="email" required>
-                        <label>Email</label>
+                    <div class="input-text">
+                        <input type="text" required>
+                        <label>Usuário</label>
                     </div>
-    
-                    <div class="login-input-box">
-                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    
+                    <div class="input-text">
                         <input type="password" required>
                         <label>Senha</label>
                     </div>
-    
-                    <button type="submit" class="btn">Conectar</button>
+
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <label> Relembrar senha</label>                        
+                    </div>
+                    
+                    <button type="submit" class="btn" onclick="logar()">Conectar</button>
+                
                 </form>
+                <footer class="rodape">
+                    <p>Copyright &copy; 2023 - MULTITECH | Todos os direitos reservados.</p>
+                </footer>
             </div>
         </div>
     </main>

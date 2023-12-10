@@ -39,7 +39,7 @@
     padding: 0 35px 0 5px;
 }
 
-.checkbox-mercury {
+.checkbox {
     font-size: .9em;
     color: var(--main-color);
     font-weight: 600;
@@ -47,9 +47,20 @@
     display: flex;
 }
 
-.checkbox-mercury input {
+.checkbox input {
     accent-color: var(--main-color);
     margin-right: 3px;
     height: 13px;
     cursor: pointer;
+}
+
+.input-text ion-icon {
+    position: absolute;
+    align-self: flex-end;
+    bottom: 10px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    color: var(--main-color);
 }
